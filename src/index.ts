@@ -236,7 +236,7 @@ export class Handle extends EventEmitter {
       body.candidate = {completed: true}
     else if(candidates.constructor == Array)
       body.candidates = candidates as Array<Object>
-    else if(typeof(candidates) == "object")
+    else if(candidates instanceof Object)
       body.candidate = candidates
     return janusFetch(this.fullEndpoint(), {
       method: "POST",
