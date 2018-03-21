@@ -1,5 +1,5 @@
 {
-  "name": "@ndarilek/janus",
+  "name": "node-janus",
   "version": "0.5.1",
   "description": "Simple API for the Janus media server",
   "main": "lib/index.js",
