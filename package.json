@@ -3,6 +3,7 @@
   "version": "0.5.1",
   "description": "Simple API for the Janus media server",
   "main": "lib/index.js",
+  "files": ["lib/"],
   "typings": "lib/index",
   "scripts": {
     "build": "typings install && tsc",
